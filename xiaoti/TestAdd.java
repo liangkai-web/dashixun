@@ -1,3 +1,5 @@
+æ±‚s=a+aa+aaa+aaaa+aa...açš„å€¼ï¼Œå…¶ä¸­aæ˜¯ä¸€ä¸ªæ•°å­—ã€‚ä¾‹å¦‚2+22+222+2222+22222(æ­¤æ—¶å…±æœ‰5ä¸ªæ•°ç›¸åŠ )ï¼Œå‡ ä¸ªæ•°ç›¸åŠ æœ‰é”®ç›˜æ§åˆ¶ã€‚Â 
+1.ç¨‹åºåˆ†æï¼šå…³é”®æ˜¯è®¡ç®—å‡ºæ¯ä¸€é¡¹çš„å€¼ã€‚
 package zuoye;
 
 import java.util.Scanner;
@@ -5,9 +7,9 @@ import java.util.Scanner;
 public class TestAdd {
 	public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("ÇëÊäÈë»ùÊı:\n");//¿ØÖÆÌ¨ÊäÈëÊı×Ö
+        System.out.print("è¯·è¾“å…¥åŸºæ•°:\n");//æ§åˆ¶å°è¾“å…¥æ•°å­—
         int a = scan.nextInt();
-        System.out.print("ÇëÊäÈëÏîÊı:\n");//¿ØÖÆÌ¨ÊäÈëÊı×Ö
+        System.out.print("è¯·è¾“å…¥é¡¹æ•°:\n");//æ§åˆ¶å°è¾“å…¥æ•°å­—
         int b = scan.nextInt(); 
         int sum=0;  
         for(int i=0;i<b;i++) {
