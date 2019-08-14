@@ -1,3 +1,5 @@
+æœ‰nä¸ªæ•´æ•°ï¼Œä½¿å…¶å‰é¢å„æ•°é¡ºåºå‘åç§»mä¸ªä½ç½®ï¼Œæœ€åmä¸ªæ•°å˜æˆæœ€å‰é¢çš„mä¸ªæ•°
+
 package zuoye;
 
 import java.util.Scanner;
@@ -7,15 +9,15 @@ public class Array1 {
 		 int N =5;
 		   int[] a = new int[N];
 		   Scanner s = new Scanner(System.in);
-		   System.out.println("ÇëÊäÈë5¸öÕûÊı£º");
+		   System.out.println("è¯·è¾“å…¥5ä¸ªæ•´æ•°ï¼š");
 		   for(int i=0; i<N; i++) {
 		    a[i] = s.nextInt();
 		   }
-		   System.out.print("ÄãÊäÈëµÄÊı×éÎª£º");
+		   System.out.print("ä½ è¾“å…¥çš„æ•°ç»„ä¸ºï¼š");
 		   for(int i=0; i<N; i++) {
 		     System.out.print(a[i] + " ");
 		   }
-		   System.out.print("\nÇëÊäÈëÏòºóÒÆ¶¯µÄÎ»Êı£º");
+		   System.out.print("\nè¯·è¾“å…¥å‘åç§»åŠ¨çš„ä½æ•°ï¼š");
 		   int m = s.nextInt();
 		   int[] b = new int[m];
 		   for(int i=0; i<m; i++) {
@@ -27,7 +29,7 @@ public class Array1 {
 		   for(int i=0; i<m; i++) {
 		    a[i] = b[i];
 		   }
-		System.out.print("Î»ÒÆºóµÄÊı×éÊÇ£º");
+		System.out.print("ä½ç§»åçš„æ•°ç»„æ˜¯ï¼š");
 		   for(int i=0; i<N; i++) {
 		    System.out.print(a[i] + " ");
 		   }
