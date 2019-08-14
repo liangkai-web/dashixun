@@ -1,3 +1,5 @@
+è¾“å…¥ä¸€è¡Œå­—ç¬¦ï¼Œåˆ†åˆ«ç»Ÿè®¡å‡ºå…¶ä¸­è‹±æ–‡å­—æ¯ã€ç©ºæ ¼ã€æ•°å­—å’Œå…¶å®ƒå­—ç¬¦çš„ä¸ªæ•°ã€‚Â 
+1.ç¨‹åºåˆ†æï¼šåˆ©ç”¨whileè¯­å¥,æ¡ä»¶ä¸ºè¾“å…¥çš„å­—ç¬¦ä¸ä¸º'n'.
 package zuoye;
 
 import java.util.Scanner;
@@ -7,11 +9,11 @@ public class StChar {
         int b,c,d,e;
         b=0; c=0;d=0;e=0;
 		 Scanner s = new Scanner(System.in);
-	        System.out.print("ÇëÊäÈë:\n");
+	        System.out.print("è¯·è¾“å…¥:\n");
 	        String a = s.nextLine(); 
 	        for(int i=0;i<a.length();i++) {
 	        	char m=a.charAt(i);
-	        	//»ñÈ¡×Ö·û´®ÖĞµÚi¸ö×Ö·ûµÄ·½·¨
+	        	//è·å–å­—ç¬¦ä¸²ä¸­ç¬¬iä¸ªå­—ç¬¦çš„æ–¹æ³•
 			if(Character.isDigit(m)) {
 	        	b++;
 			}
@@ -23,10 +25,10 @@ public class StChar {
 	        		e++;
 	        	}
 			}
-	            System.out.println("Êı×ÖµÄ¸öÊıÊÇ"+b);
-	            System.out.println("Ó¢ÎÄ×ÖÄ¸µÄ¸öÊıÊÇ"+c);
-	            System.out.println("¿Õ¸ñµÄ¸öÊıÊÇ"+d);
-	            System.out.println("ÆäËû×Ö·ûµÄ¸öÊıÊÇ"+e);       
+	            System.out.println("æ•°å­—çš„ä¸ªæ•°æ˜¯"+b);
+	            System.out.println("è‹±æ–‡å­—æ¯çš„ä¸ªæ•°æ˜¯"+c);
+	            System.out.println("ç©ºæ ¼çš„ä¸ªæ•°æ˜¯"+d);
+	            System.out.println("å…¶ä»–å­—ç¬¦çš„ä¸ªæ•°æ˜¯"+e);       
 	}
 
 }
