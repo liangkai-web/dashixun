@@ -1,3 +1,5 @@
+ä¸€ä¸ª5ä½æ•°ï¼Œåˆ¤æ–­å®ƒæ˜¯ä¸æ˜¯å›æ–‡æ•°ã€‚å³12321æ˜¯å›æ–‡æ•°ï¼Œä¸ªä½ä¸ä¸‡ä½ç›¸åŒï¼Œåä½ä¸åƒä½ç›¸åŒã€‚
+
 package zuoye;
 
 import java.util.Scanner;
@@ -5,21 +7,21 @@ import java.util.Scanner;
 public class HuiWenShu {
 	public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("ÇëÊäÈëÒ»¸öÎåÎ»µÄÊı×Ö:\n");//¿ØÖÆÌ¨ÊäÈëÊı×Ö
+        System.out.print("è¯·è¾“å…¥ä¸€ä¸ªäº”ä½çš„æ•°å­—:\n");//æ§åˆ¶å°è¾“å…¥æ•°å­—
         int n = scan.nextInt();
         String s=""+n;
         if(s.length()<5) {
-        	System.out.println("ÊäÈë´íÎó£¬ÇëÊäÈëÒ»¸öÎåÎ»Êı×Ö");	
+        	System.out.println("è¾“å…¥é”™è¯¯ï¼Œè¯·è¾“å…¥ä¸€ä¸ªäº”ä½æ•°å­—");	
         }
-        int a=n/10000;//µÃµ½ÍòÎ»Êı×Ö
+        int a=n/10000;//å¾—åˆ°ä¸‡ä½æ•°å­—
         int b=n/1000%10;
         int c=n/100%10;
         int d=n/10%10;
         int e=n%10;
         if(a==e&&b==d) {
-        	System.out.println("¸ÃÊıÊÇ»ØÎÄÊı");
+        	System.out.println("è¯¥æ•°æ˜¯å›æ–‡æ•°");
         }else {
-        	System.out.println("¸ÃÊı²»ÊÇ»ØÎÄÊı");
+        	System.out.println("è¯¥æ•°ä¸æ˜¯å›æ–‡æ•°");
         }
 
         }
