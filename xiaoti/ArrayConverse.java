@@ -1,3 +1,6 @@
+将一个数组逆序输出。 
+1.程序分析：用第一个与最后一个交换。
+
 package zuoye;
 
 import java.util.Scanner;
@@ -6,7 +9,7 @@ public class ArrayConverse {
 	public static void main(String[] args) {
 		int[] a=new int [10];
 		int k;
-		  System.out.println("���������ݣ�");
+		  System.out.println("ÇëÊäÈëÊý¾Ý£º");
 
 		  Scanner s = new Scanner(System.in);
 
