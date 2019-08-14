@@ -1,3 +1,5 @@
+è¾“å…¥æ•°ç»„ï¼Œæœ€å¤§çš„ä¸ç¬¬ä¸€ä¸ªå…ƒç´ äº¤æ¢ï¼Œæœ€å°çš„ä¸æœ€åä¸€ä¸ªå…ƒç´ äº¤æ¢ï¼Œè¾“å‡ºæ•°ç»„ã€‚
+
 package zuoye;
 
 import java.util.Scanner;
@@ -8,11 +10,11 @@ public class ArrayChange {
 		   int[] a = new int [N];
 		   Scanner s = new Scanner(System.in);
 		   int idx1 = 0, idx2 = 0;
-		   System.out.println("ÇëÊäÈë8¸öÕûÊı£º");
+		   System.out.println("è¯·è¾“å…¥8ä¸ªæ•´æ•°ï¼š");
 		   for(int i=0; i<N; i++) {
 		    a[i] = s.nextInt();
 		}
-		   System.out.println("ÄãÊäÈëµÄÊı×éÎª£º");
+		   System.out.println("ä½ è¾“å…¥çš„æ•°ç»„ä¸ºï¼š");
 		   for(int i=0; i<N; i++) {
 		     System.out.print(a[i] + " ");
 		   }
@@ -37,7 +39,7 @@ public class ArrayChange {
 		    a[N-1] = a[idx2];
 		    a[idx2] = temp;
 		   }
-		   System.out.println("\n½»»»ºóµÄÊı×éÎª£º");
+		   System.out.println("\näº¤æ¢åçš„æ•°ç»„ä¸ºï¼š");
 		   for(int i=0; i<N; i++) {
 		    System.out.print(a[i] + " ");
 		   }
