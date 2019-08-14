@@ -1,3 +1,7 @@
+æœ‰ä¸€ä¸ªå·²ç»æ’å¥½åºçš„æ•°ç»„ã€‚ç°è¾“å…¥ä¸€ä¸ªæ•°ï¼Œè¦æ±‚æŒ‰åŸæ¥çš„è§„å¾‹å°†å®ƒæ’å…¥æ•°ç»„ä¸­ã€‚Â 
+1. ç¨‹åºåˆ†æï¼šé¦–å…ˆåˆ¤æ–­æ­¤æ•°æ˜¯å¦å¤§äºæœ€åä¸€ä¸ªæ•°ï¼Œç„¶åå†è€ƒè™‘æ’å…¥ä¸­é—´çš„æ•°çš„æƒ…å†µï¼Œæ’å…¥åæ­¤å…ƒç´ ä¹‹åçš„æ•°ï¼ŒÂ 
+ä¾æ¬¡åç§»ä¸€ä¸ªä½ç½®ã€‚
+
 package zuoye;
 
 import java.util.Arrays;
@@ -5,30 +9,30 @@ import java.util.Scanner;
 
 public class ArraySort {
 	public static void main(String[] args) {
-		int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };// ¶¨ÒåÒ»¸öÉıĞòÅÅĞòÊı×é
-        //int[] array = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };// ¶¨ÒåÒ»¸ö½µĞòÅÅĞòÊı×é
-        System.out.print("¶¨ÒåµÄÊı×éÎª£º");
+		int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };// å®šä¹‰ä¸€ä¸ªå‡åºæ’åºæ•°ç»„
+        //int[] array = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };// å®šä¹‰ä¸€ä¸ªé™åºæ’åºæ•°ç»„
+        System.out.print("å®šä¹‰çš„æ•°ç»„ä¸ºï¼š");
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
         System.out.println();
         Scanner sc = new Scanner(System.in);
-        System.out.print("ÇëÊäÈëÒ»¸öÊı£º");
+        System.out.print("è¯·è¾“å…¥ä¸€ä¸ªæ•°ï¼š");
         int addNumber = sc.nextInt();
-        array = Arrays.copyOf(array, array.length + 1);// Êı×éÀ©Èİ
-        array[array.length - 1] = addNumber; // ÔİÊ±½«Êı×éµÄ×îºóÒ»¸öÊı¸³ÖµÎª²åÈëµÄÊı
-        //ÅĞ¶ÏÊı×éÊÇ½µĞò»¹ÊÇÉıĞò£¬¶ÔÓ¦Æä¹æÂÉ½øĞĞÊä³ö
+        array = Arrays.copyOf(array, array.length + 1);// æ•°ç»„æ‰©å®¹
+        array[array.length - 1] = addNumber; // æš‚æ—¶å°†æ•°ç»„çš„æœ€åä¸€ä¸ªæ•°èµ‹å€¼ä¸ºæ’å…¥çš„æ•°
+        //åˆ¤æ–­æ•°ç»„æ˜¯é™åºè¿˜æ˜¯å‡åºï¼Œå¯¹åº”å…¶è§„å¾‹è¿›è¡Œè¾“å‡º
         int i = 0;
-        //µ±¶¨ÒåµÄÊı×éÎªÉıĞòµÄÊ±ºò
+        //å½“å®šä¹‰çš„æ•°ç»„ä¸ºå‡åºçš„æ—¶å€™
         if (array[i] <= array[array.length - 2]) {
-            Arrays.sort(array);// ÔÙ´ÎÅÅĞò
-            System.out.print("²åÈëÒ»¸öÊıºóµÄÊı×éÎª£º");
+            Arrays.sort(array);// å†æ¬¡æ’åº
+            System.out.print("æ’å…¥ä¸€ä¸ªæ•°åçš„æ•°ç»„ä¸ºï¼š");
             for (i = 0; i < array.length; i++) {
                 System.out.print(array[i] + " ");
             }
-        } else {//µ±¶¨ÒåµÄÊı×éÎª½µĞòµÄÊ±ºò£¬Êı×é½øĞĞµ¹ĞòÊä³ö
-            Arrays.sort(array);// ÔÙ´ÎÅÅĞò
-            System.out.print("²åÈëÒ»¸öÊıºóµÄÊı×éÎª£º");
+        } else {//å½“å®šä¹‰çš„æ•°ç»„ä¸ºé™åºçš„æ—¶å€™ï¼Œæ•°ç»„è¿›è¡Œå€’åºè¾“å‡º
+            Arrays.sort(array);// å†æ¬¡æ’åº
+            System.out.print("æ’å…¥ä¸€ä¸ªæ•°åçš„æ•°ç»„ä¸ºï¼š");
             for (i = array.length - 1; i >= 0; i--) {
                 System.out.print(array[i] + " ");
             }
