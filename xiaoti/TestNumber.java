@@ -1,3 +1,5 @@
+ç»™ä¸€ä¸ªä¸å¤šäº5ä½çš„æ­£æ•´æ•°ï¼Œè¦æ±‚ï¼šä¸€ã€æ±‚å®ƒæ˜¯å‡ ä½æ•°ï¼ŒäºŒã€é€†åºæ‰“å°å‡ºå„ä½æ•°å­—ã€‚
+
 package zuoye;
 
 import java.util.Scanner;
@@ -5,10 +7,10 @@ import java.util.Scanner;
 public class TestNumber {
 	public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("ÇëÊäÈëÒ»¸ö²»¶àÓÚÎåÎ»µÄÊı×Ö:\n");//¿ØÖÆÌ¨ÊäÈëÊı×Ö
+        System.out.print("è¯·è¾“å…¥ä¸€ä¸ªä¸å¤šäºäº”ä½çš„æ•°å­—:\n");//æ§åˆ¶å°è¾“å…¥æ•°å­—
         int a=scan.nextInt();
         String s=""+a;
-        System.out.println("Î»ÊıÎª£º"+s.length());  
+        System.out.println("ä½æ•°ä¸ºï¼š"+s.length());  
         for (int x = s.length()-1;x>=0;x--)
         {
         	int m;
