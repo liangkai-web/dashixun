@@ -1,3 +1,4 @@
+è¾“å…¥ä¸¤ä¸ªæ­£æ•´æ•°må’Œnï¼Œæ±‚å…¶æœ€å¤§å…¬çº¦æ•°å’Œæœ€å°å…¬å€æ•°ã€‚Â 
 package zuoye;
 
 import java.util.Scanner;
@@ -6,9 +7,9 @@ public class GcdTest {
 
 	public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("ÇëÊäÈëµÚÒ»¸öÕûÊı:\n");//¿ØÖÆÌ¨ÊäÈëÊı×Ö
+        System.out.print("è¯·è¾“å…¥ç¬¬ä¸€ä¸ªæ•´æ•°:\n");//æ§åˆ¶å°è¾“å…¥æ•°å­—
         int a = scan.nextInt();
-        System.out.print("ÇëÊäÈëµÚ¶ş¸öÕûÊı:\n");//¿ØÖÆÌ¨ÊäÈëÊı×Ö
+        System.out.print("è¯·è¾“å…¥ç¬¬äºŒä¸ªæ•´æ•°:\n");//æ§åˆ¶å°è¾“å…¥æ•°å­—
         int b = scan.nextInt(); 
         int m = a*b;
         int c ;
@@ -16,12 +17,12 @@ public class GcdTest {
         	do {
         	c=a%b;
         	a=b;
-        	b=c;   	//Äë³ı·¨
+        	b=c;   	//ç¢¾é™¤æ³•
         }while(c!=0);
-        	System.out.println("×î´ó¹«Ô¼ÊıÎª£º"+a);
+        	System.out.println("æœ€å¤§å…¬çº¦æ•°ä¸ºï¼š"+a);
             int t =m/a;
-            System.out.println("×îĞ¡¹«±¶ÊıÎª£º"+t); 
-        }  else {                     //µ±a<bÊ±µÄÇé¿ö
+            System.out.println("æœ€å°å…¬å€æ•°ä¸ºï¼š"+t); 
+        }  else {                     //å½“a<bæ—¶çš„æƒ…å†µ
         	int n;
         	n=a;
         	a=b;
@@ -31,9 +32,9 @@ public class GcdTest {
         	b=a;
         	a=c; 	
         	}while(c!=0);
-        	System.out.println("×î´ó¹«Ô¼ÊıÎª£º"+b);
+        	System.out.println("æœ€å¤§å…¬çº¦æ•°ä¸ºï¼š"+b);
         	int t = m/b;
-        	System.out.println("×îĞ¡¹«±¶ÊıÎª£º"+t);	
+        	System.out.println("æœ€å°å…¬å€æ•°ä¸ºï¼š"+t);	
         }
         }
 	}
