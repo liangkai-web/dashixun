@@ -1,3 +1,5 @@
+求100之内的素数
+
 package zuoye;
 
 public class SuShu {
